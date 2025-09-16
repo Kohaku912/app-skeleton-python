@@ -1,0 +1,13 @@
+{
+  "name": "oc/earthquake_notify",
+  "type": "nextcloud-app",
+  "description": "Earthquake notifications & Talk integration",
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "OCA\\EarthquakeNotify\\": "lib/"
+    }
+  }
+}
